@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory</title>
+    <link href="CSS en JS/index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="invul">
+        <h1>MEMORY B</h1>
+        <button id="naarSpel" onclick="updatePunten()">START</button>
+        <p class="beschrijving">Je speelt hier als twee spelers genaamd <b>Caine</b> en <b>Abel</b>. <br>Dit spel is dus voor twee spelers bedoeld zoals je hoort. Wie de meeste punten heeft wint<br>Je kunt BONUS-PUNTEN krijgen door jouw tegenstander een paar te laten vinden van jouw character.</p>
+    </div>
+    <div class="avatars">
+        <div class="caine">
+            <h2>caine</h2>
+            <img src="images/c.jpg" height="200px" width="200px">
+        </div>
+        <div class="abel">
+            <h2>abel</h2>
+            <img src="images/a.jpg" height="200px" width="200px">
+        </div>
+    </div>
+    <script>
+        document.getElementById('naarSpel').addEventListener('click', function () {
+    window.location.href = 'index.html';
+});
+    </script>
+</body>
+</html>
